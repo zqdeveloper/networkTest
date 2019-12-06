@@ -19,7 +19,7 @@ import android.view.View;
  */
 public class NetWorkStatusManager
 {
-    static final Map<Class<?>, Register<Object>> BINDERS = new LinkedHashMap<Class<?>, Register<Object>>();
+    private static final Map<Class<?>, Register<Object>> BINDERS = new LinkedHashMap<Class<?>, Register<Object>>();
 
     private NetWorkStatusManager()
     {

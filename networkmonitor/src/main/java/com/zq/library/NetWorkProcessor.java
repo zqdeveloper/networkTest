@@ -28,7 +28,7 @@ import javax.tools.JavaFileObject;
 /**
  * @author 张青
  */
-//@AutoService(Processor.class)
+@AutoService(Processor.class)
 @SupportedAnnotationTypes("com.zq.annotations.NetWorkType")
 public class NetWorkProcessor extends AbstractProcessor
 {

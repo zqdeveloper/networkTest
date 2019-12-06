@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity
 {
     private static final String TAG = "MainActivity";
 
-    Register register;
+    private Register register;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         register = NetWorkStatusManager.register(this);
     }
-
 
     @NetWorkType(NetWork.NETWORK_2G)
     public void Test(NetWork netWork)
